@@ -4,7 +4,8 @@
   "description": "Discord bot for Musics",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js --watch src/*"
+    "dev": "nodemon src/index.js --watch src/*",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.19.0"
   }
 }
