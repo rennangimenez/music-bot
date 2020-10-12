@@ -1,0 +1,24 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Musics",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --watch src/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "yt-search": "^2.3.2",
+    "ytdl-core-discord": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
